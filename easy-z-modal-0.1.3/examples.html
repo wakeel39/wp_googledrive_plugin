@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+
+        <title>Examples Easy Z modal</title>
+        <meta name="description" content="Examples eZmodal">
+        <meta name="author" content="Markus Lima">
+    
+        <link rel="stylesheet" href="src/ezmodal.css">
+        
+
+
+        <!--[if lt IE 9]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>eZmodal</h1>
+                    <br>
+                    <button type="button" class="btn btn-lg btn-primary" ezmodal-target="#example1">Default Modal</button>
+                    <div id="example1" class="ezmodal" ezmodal-width="900">
+                        <div class="ezmodal-container">
+                            <div class="ezmodal-header">
+                                <div class="ezmodal-close" data-dismiss="ezmodal">x</div>
+                                Default
+                            </div>
+                            <div class="ezmodal-content">
+                                <form method="get" action="index.php">
+								<input type="text" name="">
+								<input type="text" name="">
+								<input type="text" name="">
+								
+								<input type="submit" value="submit">
+								
+								</form>
+                            </div>
+                            <div class="ezmodal-footer">
+                                <button type="button" class="btn" data-dismiss="ezmodal">Fechar</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <br>
+                    
+         
+                </div>
+            </div>
+        </div>
+        
+        
+        
+        
+        <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+        
+        <script src="src/ezmodal.js"></script>
+       
+    </body>
+</html>
